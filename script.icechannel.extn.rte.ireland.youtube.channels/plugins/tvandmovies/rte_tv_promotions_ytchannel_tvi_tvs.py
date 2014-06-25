@@ -1,5 +1,5 @@
 '''
-    RTE Republic Of Comedy Extension
+    RTE TV Promotions
 '''
 
 from entertainment.plugnplay import Plugin
@@ -12,13 +12,13 @@ from entertainment.plugnplay.interfaces import TVShowSource
 
 #import re
 
-class rterepublicofcomedy(TVShowIndexer, TVShowSource):
+class rte_tv_promotions_ytchannel(TVShowIndexer, TVShowSource):
     implements = [TVShowIndexer, TVShowSource]
 
-    name = 'Youtube: RTE Republic Of Comedy'
-    display_name = 'Youtube: RTE Republic Of Comedy'
+    name = 'Youtube: RTE TV Promotions'
+    display_name = 'Youtube: RTE TV Promotions'
     
-    img = 'https://yt3.ggpht.com/-o3aTp9LE6lg/AAAAAAAAAAI/AAAAAAAAAAA/7KlKB5hIcGo/s100-c-k-no/photo.jpg'
+    img = 'http://yt3.ggpht.com/-xAjt2Fcx0jc/AAAAAAAAAAI/AAAAAAAAAAA/S8KpokKwj7I/s88-c-k-no/photo.jpg'
     default_indexer_enabled = 'true'
     source_enabled_by_default = 'true'
 
@@ -67,8 +67,8 @@ class rterepublicofcomedy(TVShowIndexer, TVShowSource):
 
     def GetSection(self, indexer, section, url, type, list, page='', total_pages='', sort_by='', sort_order=''):
         if section == 'main':
-            self.AddSection(list, indexer, 'uploads', 'Uploads', 'http://gdata.youtube.com/feeds/api/users/rterepublicofcomedy/uploads?&v=2&max-results=50&alt=jsonc', indexer)
-            self.AddSection(list, indexer, 'playlists', 'Playlists', 'http://gdata.youtube.com/feeds/api/users/rterepublicofcomedy/playlists?&v=2&max-results=50&alt=jsonc', indexer)
+            self.AddSection(list, indexer, 'uploads', 'Uploads', 'http://gdata.youtube.com/feeds/api/users/rtepromotions/uploads?&v=2&max-results=50&alt=jsonc', indexer)
+            self.AddSection(list, indexer, 'playlists', 'Playlists', 'http://gdata.youtube.com/feeds/api/users/rtepromotions/playlists?&v=2&max-results=50&alt=jsonc', indexer)
         else:
             self.ExtractContentAndAddtoList(indexer, section, url, type, list, page, total_pages, sort_by, sort_order)
 

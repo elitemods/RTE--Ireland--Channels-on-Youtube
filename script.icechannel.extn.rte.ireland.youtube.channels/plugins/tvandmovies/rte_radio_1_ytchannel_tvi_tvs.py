@@ -1,5 +1,5 @@
 '''
-    RTE - Ireland's National Television and Radio Broadcaster Extension
+    RTE Radio 1
 '''
 
 from entertainment.plugnplay import Plugin
@@ -12,13 +12,13 @@ from entertainment.plugnplay.interfaces import TVShowSource
 
 #import re
 
-class rte(TVShowIndexer, TVShowSource):
+class rte_radio_1_ytchannel(TVShowIndexer, TVShowSource):
     implements = [TVShowIndexer, TVShowSource]
 
-    name = 'Youtube: RTE - Ireland\'s National Television and Radio Broadcaster'
-    display_name = 'Youtube: RTE - Ireland\'s National Television and Radio Broadcaster'
+    name = 'Youtube: RTE Radio 1'
+    display_name = 'Youtube: RTE Radio 1'
     
-    img = 'https://yt3.ggpht.com/-F4o_2WAQ_p0/AAAAAAAAAAI/AAAAAAAAAAA/Jx0JCuoSXmk/s100-c-k-no/photo.jpg'
+    img = 'http://yt3.ggpht.com/-bmIcX5Y1uKc/AAAAAAAAAAI/AAAAAAAAAAA/bF8y5pCqlaM/s88-c-k-no/photo.jpg'
     default_indexer_enabled = 'true'
     source_enabled_by_default = 'true'
 
@@ -67,8 +67,8 @@ class rte(TVShowIndexer, TVShowSource):
 
     def GetSection(self, indexer, section, url, type, list, page='', total_pages='', sort_by='', sort_order=''):
         if section == 'main':
-            self.AddSection(list, indexer, 'uploads', 'Uploads', 'http://gdata.youtube.com/feeds/api/users/rte/uploads?&v=2&max-results=50&alt=jsonc', indexer)
-            self.AddSection(list, indexer, 'playlists', 'Playlists', 'http://gdata.youtube.com/feeds/api/users/rte/playlists?&v=2&max-results=50&alt=jsonc', indexer)
+            self.AddSection(list, indexer, 'uploads', 'Uploads', 'http://gdata.youtube.com/feeds/api/users/RTERadio1/uploads?&v=2&max-results=50&alt=jsonc', indexer)
+            self.AddSection(list, indexer, 'playlists', 'Playlists', 'http://gdata.youtube.com/feeds/api/users/RTERadio1/playlists?&v=2&max-results=50&alt=jsonc', indexer)
         else:
             self.ExtractContentAndAddtoList(indexer, section, url, type, list, page, total_pages, sort_by, sort_order)
 
