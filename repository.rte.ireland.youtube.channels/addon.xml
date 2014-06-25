@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.rte.ireland.youtube.channels" name="RTE (Ireland) Channels on Youtube" version="1.0" provider-name="elitemods">
+	<extension point="xbmc.addon.repository" name="repository.rte.ireland.youtube.channels">
+		<info compressed="false">https://raw.githubusercontent.com/elitemods/RTE--Ireland--Channels-on-Youtube/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/elitemods/RTE--Ireland--Channels-on-Youtube/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/elitemods/RTE--Ireland--Channels-on-Youtube/master/zips</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>RTE (Ireland) Channels on Youtube</summary>
+		<description>RTE (Ireland) Channels on Youtube</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
