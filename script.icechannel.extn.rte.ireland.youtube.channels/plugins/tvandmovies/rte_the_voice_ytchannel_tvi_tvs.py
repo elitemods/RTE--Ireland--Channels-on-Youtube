@@ -63,7 +63,7 @@ class rte_the_voice_ytchannel(TVShowIndexer, TVShowSource):
                 self.AddContent(list, indexer, common.mode_File_Hosts, name, '', 'tv_episodes', url=url, name=name, season='0', episode='0', img=img, plot=plot)
             elif section =='playlists':
                 url = 'http://gdata.youtube.com/feeds/api/playlists/' + item['id'] + '?&v=2&max-results=50&alt=jsonc'
-                self.AddSection(list, indexer, 'playlist_items', name, url, indexer)
+                self.AddSection(list, indexer, 'playlist_items', name, url, indexer, img=img, plot=plot)
 
     def GetSection(self, indexer, section, url, type, list, page='', total_pages='', sort_by='', sort_order=''):
         if section == 'main':

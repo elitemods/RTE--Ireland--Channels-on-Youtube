@@ -13,7 +13,7 @@
 	</extension>
 </addon>
 
-<addon id="script.icechannel.extn.rte.ireland.youtube.channels" version="0.0.2" name="RTE (Ireland) Channels on Youtube" provider-name="elitemods">
+<addon id="script.icechannel.extn.rte.ireland.youtube.channels" version="0.0.3" name="RTE (Ireland) Channels on Youtube" provider-name="elitemods">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="repository.istream" version="1.0"/>
