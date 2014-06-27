@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<addon id="script.icechannel.extn.rte.ireland.youtube.channels" version="0.0.3" name="RTE (Ireland) Channels on Youtube" provider-name="elitemods">
+<addon id="script.icechannel.extn.rte.ireland.youtube.channels" version="0.0.4" name="RTE (Ireland) Channels on Youtube" provider-name="elitemods">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
         <import addon="repository.istream" version="1.0"/>
@@ -8,12 +8,12 @@
     <extension point="xbmc.addon.metadata">
 		<summary lang="en">RTE (Ireland) Channels on Youtube</summary>
 		<description lang="en">Add following Youtube channels to iStream. [CR] + RTE - Ireland's National Television and Radio Broadcaster [CR] + RTE Republic of Comedy [CR] + RTE News Now [CR] + RTE 2fm [CR] + RTE Radio 1 [CR] + TRTE [CR] + RTE The Voice [CR] + RTE TV Promotions</description>
-		<platform></platform>
+		<platform>all</platform>
 		<language></language>
-		<license></license>
+		<license>GPLv3</license>
 		<forum></forum>
-		<website></website>
-		<source></source>
-		<email></email>
+		<website>https://github.com/elitemods/RTE--Ireland--Channels-on-Youtube</website>
+		<source>https://github.com/elitemods/RTE--Ireland--Channels-on-Youtube</source>
+		<email>elitemodsnj@gmail.com</email>
     </extension>
 </addon>
