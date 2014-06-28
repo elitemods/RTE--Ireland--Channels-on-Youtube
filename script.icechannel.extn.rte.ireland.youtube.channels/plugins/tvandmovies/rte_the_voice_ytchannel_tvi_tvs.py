@@ -57,7 +57,10 @@ class rte_the_voice_ytchannel(TVShowIndexer, TVShowSource):
                 img = item['thumbnail']['hqDefault']
             except:
                 img = ''
-            plot = item['description']
+            try:
+                plot = item['description']
+            except:
+                plot = ''
             if section == 'uploads' or section=='playlist_items':
                 url = item['player']['default']
                 self.AddContent(list, indexer, common.mode_File_Hosts, name, '', 'tv_episodes', url=url, name=name, season='0', episode='0', img=img, plot=plot)
