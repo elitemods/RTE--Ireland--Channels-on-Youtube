@@ -18,7 +18,7 @@ class rte_ytchannel(TVShowIndexer, TVShowSource):
     name = 'Youtube: RTE - Ireland\'s National Television and Radio Broadcaster'
     display_name = 'Youtube: RTE - Ireland\'s National Television and Radio Broadcaster'
     
-    img = 'https://yt3.ggpht.com/-F4o_2WAQ_p0/AAAAAAAAAAI/AAAAAAAAAAA/Jx0JCuoSXmk/s100-c-k-no/photo.jpg'
+    img = 'https://yt3.ggpht.com/-F4o_2WAQ_p0/AAAAAAAAAAI/AAAAAAAAAAA/Jx0JCuoSXmk/s256-c-k-no/photo.jpg'
     default_indexer_enabled = 'true'
     source_enabled_by_default = 'true'
 

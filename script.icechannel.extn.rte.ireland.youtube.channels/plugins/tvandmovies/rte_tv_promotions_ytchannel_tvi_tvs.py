@@ -18,7 +18,7 @@ class rte_tv_promotions_ytchannel(TVShowIndexer, TVShowSource):
     name = 'Youtube: RTE TV Promotions'
     display_name = 'Youtube: RTE TV Promotions'
     
-    img = 'http://yt3.ggpht.com/-xAjt2Fcx0jc/AAAAAAAAAAI/AAAAAAAAAAA/S8KpokKwj7I/s88-c-k-no/photo.jpg'
+    img = 'http://yt3.ggpht.com/-xAjt2Fcx0jc/AAAAAAAAAAI/AAAAAAAAAAA/S8KpokKwj7I/s256-c-k-no/photo.jpg'
     default_indexer_enabled = 'true'
     source_enabled_by_default = 'true'
 

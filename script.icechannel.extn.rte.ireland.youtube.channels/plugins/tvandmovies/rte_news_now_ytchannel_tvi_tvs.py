@@ -18,7 +18,7 @@ class rte_news_now_ytchannel(TVShowIndexer, TVShowSource):
     name = 'Youtube: RTE News Now'
     display_name = 'Youtube: RTE News Now'
     
-    img = 'http://yt3.ggpht.com/-nsZYzcdin2g/AAAAAAAAAAI/AAAAAAAAAAA/BsOo0PvZct8/s88-c-k-no/photo.jpg'
+    img = 'http://yt3.ggpht.com/-nsZYzcdin2g/AAAAAAAAAAI/AAAAAAAAAAA/BsOo0PvZct8/s256-c-k-no/photo.jpg'
     default_indexer_enabled = 'true'
     source_enabled_by_default = 'true'
 

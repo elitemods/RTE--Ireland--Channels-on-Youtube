@@ -18,7 +18,7 @@ class rte_the_voice_ytchannel(TVShowIndexer, TVShowSource):
     name = 'Youtube: RTE The Voice'
     display_name = 'Youtube: RTE The Voice'
     
-    img = 'http://yt3.ggpht.com/-ERCE-ZomhtA/AAAAAAAAAAI/AAAAAAAAAAA/r4ny3wK50oQ/s88-c-k-no/photo.jpg'
+    img = 'http://yt3.ggpht.com/-ERCE-ZomhtA/AAAAAAAAAAI/AAAAAAAAAAA/r4ny3wK50oQ/s256-c-k-no/photo.jpg'
     default_indexer_enabled = 'true'
     source_enabled_by_default = 'true'
 

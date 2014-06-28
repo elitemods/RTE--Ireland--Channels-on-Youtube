@@ -18,7 +18,7 @@ class rte_radio_1_ytchannel(TVShowIndexer, TVShowSource):
     name = 'Youtube: RTE Radio 1'
     display_name = 'Youtube: RTE Radio 1'
     
-    img = 'http://yt3.ggpht.com/-bmIcX5Y1uKc/AAAAAAAAAAI/AAAAAAAAAAA/bF8y5pCqlaM/s88-c-k-no/photo.jpg'
+    img = 'http://yt3.ggpht.com/-bmIcX5Y1uKc/AAAAAAAAAAI/AAAAAAAAAAA/bF8y5pCqlaM/s256-c-k-no/photo.jpg'
     default_indexer_enabled = 'true'
     source_enabled_by_default = 'true'
 

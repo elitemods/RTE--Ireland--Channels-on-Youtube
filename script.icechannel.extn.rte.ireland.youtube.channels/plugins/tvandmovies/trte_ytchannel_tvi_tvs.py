@@ -18,7 +18,7 @@ class trte_ytchannel(TVShowIndexer, TVShowSource):
     name = 'Youtube: TRTE'
     display_name = 'Youtube: TRTE'
     
-    img = 'http://yt3.ggpht.com/-wGcYOnTDjgc/AAAAAAAAAAI/AAAAAAAAAAA/kDzszgc-joc/s88-c-k-no/photo.jpg'
+    img = 'http://yt3.ggpht.com/-wGcYOnTDjgc/AAAAAAAAAAI/AAAAAAAAAAA/kDzszgc-joc/s256-c-k-no/photo.jpg'
     default_indexer_enabled = 'true'
     source_enabled_by_default = 'true'
 

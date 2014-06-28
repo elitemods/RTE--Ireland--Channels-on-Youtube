@@ -18,7 +18,7 @@ class rte_2fm_ytchannel(TVShowIndexer, TVShowSource):
     name = 'Youtube: RTE 2fm'
     display_name = 'Youtube: RTE 2fm'
     
-    img = 'http://yt3.ggpht.com/-s85xcSge4i0/AAAAAAAAAAI/AAAAAAAAAAA/KEhvekZTxTk/s88-c-k-no/photo.jpg'
+    img = 'http://yt3.ggpht.com/-s85xcSge4i0/AAAAAAAAAAI/AAAAAAAAAAA/KEhvekZTxTk/s256-c-k-no/photo.jpg'
     default_indexer_enabled = 'true'
     source_enabled_by_default = 'true'
 

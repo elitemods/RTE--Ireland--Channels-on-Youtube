@@ -18,7 +18,7 @@ class rte_republic_of_comedy_ytchannel(TVShowIndexer, TVShowSource):
     name = 'Youtube: RTE Republic Of Comedy'
     display_name = 'Youtube: RTE Republic Of Comedy'
     
-    img = 'https://yt3.ggpht.com/-o3aTp9LE6lg/AAAAAAAAAAI/AAAAAAAAAAA/7KlKB5hIcGo/s100-c-k-no/photo.jpg'
+    img = 'https://yt3.ggpht.com/-o3aTp9LE6lg/AAAAAAAAAAI/AAAAAAAAAAA/7KlKB5hIcGo/s256-c-k-no/photo.jpg'
     default_indexer_enabled = 'true'
     source_enabled_by_default = 'true'
 
